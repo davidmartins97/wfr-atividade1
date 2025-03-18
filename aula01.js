@@ -2,7 +2,7 @@ const frm = document.querySelector("form");
 const respm = document.getElementById("menos");
 const resp = document.getElementById("inDiv");
 const respM = document.getElementById("mais");
-const bloco = document.querySelector(".bloco"); // Seleciona o container dos resultados
+const bloco = document.querySelector(".bloco");
 
 frm.addEventListener("submit", (e) => {
     e.preventDefault();
